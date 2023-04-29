@@ -19,8 +19,4 @@ app.get('/esp',esp.esp_todos)
 app.get('/esp/:id',esp.esp_id)
 app.post('/esppost',esp.esppost)
 
-
-
-app.use('/', indexRouter);
-
 module.exports = app;
